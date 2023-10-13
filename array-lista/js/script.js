@@ -18,7 +18,7 @@ btn.addEventListener('click', function(){
     resultEl.classList.remove('alert-success');
     resultEl.classList.remove('alert-danger');
     resultEl.classList.add('d-none');
-    let valoreInserito = (inputEl.value);
+    let valoreInserito = inputEl.value;
     if(!isNaN(valoreInserito)){
         console.log('errore');
         alertColor = 'alert-danger';
