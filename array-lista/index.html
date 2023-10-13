@@ -30,9 +30,16 @@
 
     <div id="app">
       <h1>Tutti Frutti</h1>
-      <label for="nome">Dato in input</label>
-      <input type="text" id="data" name="data">
-      <button class="btn btn-success">Invia</button>
+      <div>
+        <label for="data">Metti un frutto in frigo</label>
+        <input type="text" id="data" name="data">
+        <button class="btn btn-success" id="insert">Chiudi il frigo</button>
+      </div>
+      <div class="my-2">
+        <label for="search">Cerca se c'è quel frutto in frigo</label>
+        <input type="text" id="search" name="search">
+        <button class="btn btn-success button">Cerca</button>
+      </div>
       <div class="alert d-none"></div>
   </div>
 
