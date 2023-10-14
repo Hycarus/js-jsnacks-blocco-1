@@ -52,7 +52,7 @@ btnSearch.addEventListener('click', function(){
         msg = 'Hai inserito un numero!';
         console.log(valoreInserito);
     } else{
-        for(i = 0; i < fridge.length; i++){
+        for(let i = 0; i < fridge.length; i++){
             if(frutto === fridge[i]){
                 found = true;
             } 
