@@ -24,16 +24,22 @@ let array2 = [
 ]
 if(array1.length > array2.length){
    let differenza = array1.length - array2.length;
-   for(let i = 0; i <= differenza; i++){
+   for(let i = 0; i < differenza; i++){
         array2.push('element');
    }
-   console.log('array 1 è più lungo');
+   console.log('array 1 era più lungo');
+   console.log(array1.length);
+   console.log(array2.length);
 } else if(array2.length > array1.length){
     let differenza = array2.length - array1.length;
-    for(let i = 0; i <= differenza; i++){
+    for(let i = 0; i < differenza; i++){
         array1.push('element');
     }
-    console.log('array 2 è più lungo');
+    console.log('array 2 era più lungo');
+    console.log(array1.length);
+    console.log(array2.length);
 } else{
-    console.log('Sono uguali');
+    console.log('Sono già uguali');
+    console.log(array1.length);
+    console.log(array2.length);
 }
